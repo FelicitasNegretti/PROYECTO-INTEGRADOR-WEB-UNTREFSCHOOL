@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    background-color: #181823;
+    color: #eff5f5;
+    padding: 10px 100px;
+    width: 100%;
+    height: 30px;
+    font-size: 30px;
+}
+
+p{
+    color: #181823;
+    font-size: 20px;
+    margin: 25px 300px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 25px auto;
+    gap: 10px;
+    width: 50%;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-around;
+}
+
+.boton{
+    padding: 0.7rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    border: none;
+    background-color: #00425a;
+    color: #eff5f5;
+}
+
+#volver{
+    text-decoration: none;
+    color: #00425a;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+.boton-volver{
+    text-align: end;
+}
