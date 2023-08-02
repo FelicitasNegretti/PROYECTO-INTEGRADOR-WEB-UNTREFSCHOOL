@@ -228,7 +228,7 @@ footer{
 }
 
 
-/* Medias queries */
+/* Medias queries para 768px*/
 
 @media screen and (max-width: 768px){
 .navegador-768px{
@@ -242,7 +242,7 @@ footer{
 
 .navegador-768px > ul{
     display: flex;
-    width: 100%;
+    width: 100%;   
     justify-content:space-between;
 }
 
@@ -301,3 +301,34 @@ footer{
 }
 
 }
+
+
+/* Medias queries para 320px*/
+
+@media screen and (max-width: 320px){
+
+    .navegador-768px{
+        height: 150px;
+    }
+
+    .navegador-768px > ul{
+        flex-direction: column;
+    }
+  
+    .seccion{
+        flex-direction: column;
+        margin: 0px 0px;
+        gap:0;
+    }
+
+    .imagen-noticia > img{
+        width: 100px;
+        height: 100px;
+    }
+
+    article{
+        width: 90%;
+    }
+
+    }
+    
